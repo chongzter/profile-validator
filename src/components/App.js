@@ -12,7 +12,7 @@ import "../style.css";
 const App = () => {
   return (
     <div className="ui container">
-      <Router history={history}>
+      <Router history={history} basename="profile-validator">
         <div>
           <Header />
           <Route path="/" exact component={ProfileList} />
